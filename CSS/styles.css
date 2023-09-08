@@ -1,0 +1,104 @@
+.color {
+    font-family: "Karla", serif;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 760px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area-one {
+background-color: #fff;
+}
+.area-two {
+    background-color: hsl(179, 62%, 43%);
+
+}
+.area-three {
+    background-color: hsl(179, 71%, 64%);
+padding-bottom: 34px !important;
+}
+.btn-light {
+    background-color:hsl(71, 73%, 54%) !important ;
+    color: #fff !important;
+    padding: 10px 100px 1px 100px !important;
+    box-shadow: 5px 5px 3px #1c8088;;
+}
+#section-one-title {
+    color:hsl(179, 62%, 43%) !important;
+font-size: 20px;
+font-weight: bold;
+}
+h5  {
+    color: #fff !important;
+    font-weight: bold;
+
+}
+h5 #section-three-title {
+    color: #fff !important;
+    font-weight: bold;
+
+}
+#yellow {
+    color: hsl(71, 73%, 54%) !important;
+}
+#gray {
+    color: hsl(218, 22%, 67%) !important;
+    margin-bottom: 20px;
+}
+p {
+    color: #fff;
+}
+span {
+    opacity: 0.7;
+    margin: 30px;
+    font-size: 20px;
+}
+.bigger {
+    font-size: 30px;
+}
+@media (max-width: 600px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-body {
+        width: 90%;
+        margin-left: 20px;
+    }
+    .btn-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.bigger {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        margin-bottom: -30px;
+}
+h5 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+}
